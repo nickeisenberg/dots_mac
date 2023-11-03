@@ -12,8 +12,4 @@ vim.opt.cursorcolumn = true
 -- line numbers
 vim.wo.nu = true
 
-vim.cmd(
-  [[highlight ColorColumn ctermbg=blue0
-    set colorcolumn=80
-  ]]
-)
+vim.o.foldmethod = "indent"

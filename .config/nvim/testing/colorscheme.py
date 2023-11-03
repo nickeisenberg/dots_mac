@@ -3,11 +3,15 @@ Text to see how the color scheme looks
 '''
 import numpy as np
 
+
 np.linspace(
     0, 1, 100
 )
 
 class foo:
+    """
+    A sample class
+    """
     def __init__(self):
         self.x = 2
     # text text
