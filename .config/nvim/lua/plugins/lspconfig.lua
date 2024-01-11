@@ -77,7 +77,12 @@ return {
       clangd = {},
       pyright = {},
       rust_analyzer = {},
+      bashls = {},
+      sqlls = {},
+      -- ltex = {},
+      texlab = {},
       tsserver = {},
+      marksman = {},
       html = { filetypes = { 'html', 'twig', 'hbs', 'htmldjango' } },
       lua_ls = {
         Lua = {

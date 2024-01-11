@@ -21,7 +21,7 @@ vim.cmd([[nnoremap <leader>md `>]])
 vim.cmd([[nnoremap <leader>mu `<]])
 
 -- line and column highlight
-vim.cmd([[map <leader>lc :set cursorcolumn!<Bar>set cursorline!<CR>]])
+-- vim.cmd([[map <leader>lc :set cursorcolumn!<Bar>set cursorline!<CR>]])
 
 -- Copy to clipboard
 vim.cmd([[vnoremap  <leader>y  "+y]])
@@ -34,3 +34,14 @@ vim.cmd([[nnoremap <leader>p "+p]])
 vim.cmd([[nnoremap <leader>P "+P]])
 vim.cmd([[vnoremap <leader>p "+p]])
 vim.cmd([[vnoremap <leader>P "+P]])
+
+-- splits
+vim.keymap.set("n", "<leader>vs", ":vsplit <CR>")
+vim.keymap.set("n", "<leader>s", ":split <CR>")
+vim.keymap.set("n", "<leader>cs", ":close <CR>")
+
+-- navigate splits
+vim.keymap.set("n", "<leader>l", ":wincmd l <CR>")
+vim.keymap.set("n", "<leader>h", ":wincmd h <CR>")
+vim.keymap.set("n", "<leader>j", ":wincmd j <CR>")
+vim.keymap.set("n", "<leader>k", ":wincmd k <CR>")
