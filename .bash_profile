@@ -1,4 +1,5 @@
 source ~/.bashrc
+source ~/.credentials/keypairs/paths.sh
 
 # python path
 PATH="/Users/nickeisenberg/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:${PATH}"
